@@ -2,12 +2,10 @@
 An elegant Yolov3 implementation in Tensorflow 2.0.
 
 ![prediction](./assets/street_out.jpg)
-## What you need to know
-This repo is heavily borrowed from awesome repo [zzh8829](https://github.com/zzh8829/yolov3-tf2). I just want to make it work on COCO 2017 dataset.
 ## Installation
 Clone the repo to your local
 ```
-git clone https://github.com/tamnguyenvan/yolo-tf2
+git clone https://github.com/Dawittsegaye12/Custom-Object-Detection.git
 ```
 Install the requirements
 ```
@@ -25,7 +23,7 @@ python test.py --image_path /path/to/image --model_path ./checkpoints/yolov3.tf
 ```
 
 ## Training
-We also provide a pipeline for training the model on COCO 2017 dataset.
+I also provide a pipeline for training the model on COCO 2017 dataset.
 Download COCO 2017 dataset, extract and put them into `data/raw` directory.
 ```
 wget http://images.cocodataset.org/zips/train2017.zip
@@ -48,5 +46,4 @@ python train.py \
 	--lr 0.001
 ```
 
-## References
-This repo is heavily inspired by [zzh8829](https://github.com/zzh8829/yolov3-tf2). Don't forget to give him a star.
+
